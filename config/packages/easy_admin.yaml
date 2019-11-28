@@ -1,0 +1,19 @@
+easy_admin:
+  site_name: 'Hajer BEN RHOUMA'
+  design:
+    brand_color: 'green'
+  show:
+    max_results: 5
+  entities:
+      Category:
+          class: App\Entity\Category
+          list:
+            fields: ['id', 'title', 'Path', 'Category']
+      Event:
+          class: App\Entity\Event
+      User:
+          class: App\Entity\User
+      Video:
+          class: App\Entity\Video
+
+
